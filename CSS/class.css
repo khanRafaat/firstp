@@ -1,0 +1,149 @@
+ .b1 {
+     background-color: black;
+     margin-top: 100px;
+ }
+ 
+ .japan {
+     height: 400px;
+     width: 700px;
+     background-color: white;
+ }
+ 
+ .japan1 {
+     width: 200px;
+     height: 200px;
+     bottom: 303px;
+     left: 8px;
+     position: relative;
+     background-color: red;
+     border-radius: 50%;
+ }
+ 
+ .b2 {
+     background-color: white;
+     margin-top: 100px;
+ }
+ 
+ .bdflag {
+     height: 400px;
+     width: 700px;
+     background-color: green;
+ }
+ 
+ .bdflag1 {
+     width: 200px;
+     height: 200px;
+     bottom: 303px;
+     left: 8px;
+     position: relative;
+     background-color: red;
+     border-radius: 50%;
+ }
+ 
+ .b3 {
+     background-color: white;
+     margin-top: 100px;
+ }
+ 
+ .base {
+     height: 400px;
+     width: 700px;
+     background-color: green;
+ }
+ 
+ .squre {
+     width: 200px;
+     height: 200px;
+     background-color: yellow;
+     transform: rotate(-47deg);
+     position: absolute;
+     top: 200px;
+     left: 435px;
+ }
+ 
+ .circle {
+     width: 100px;
+     height: 100px;
+     top: 250px;
+     left: 480px;
+     position: absolute;
+     background-color: blue;
+     border-radius: 50%;
+ }
+ 
+ body {
+     padding: 0;
+     margin: 0;
+ }
+ 
+ ul {
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     background: black;
+     position: -webkit-sticky;
+     position: sticky;
+     top: 0;
+ }
+ 
+ ul li {
+     padding: 20px;
+     padding-left: 0px;
+ }
+ 
+ ul li:nth-child(1) {
+     padding-left: 0px !important;
+ }
+ 
+ ul li a {
+     padding: 10px;
+     color: crimson;
+     text-decoration: none;
+ }
+ 
+ #contact {
+     justify-content: left;
+     color: crimson;
+     background-color: black;
+     position: -webkit-sticky;
+     position: sticky;
+     padding: 10px;
+     top: -1px;
+ }
+ 
+ #about {
+     justify-content: left;
+     color: crimson;
+     background-color: black;
+     position: -webkit-sticky;
+     position: sticky;
+     padding: 10px;
+     top: -1px;
+ }
+ 
+ #help {
+     justify-content: left;
+     color: crimson;
+     background-color: black;
+     position: -webkit-sticky;
+     position: sticky;
+     padding: 10px;
+     top: -1px;
+ }
+ 
+ .home {
+     position: fixed;
+     right: 10%;
+     bottom: 20px;
+     height: 40px;
+     width: 40px;
+     line-height: 40px;
+     background-color: black;
+     border-radius: 50%;
+ }
+ 
+ div a {
+     color: crimson;
+     text-decoration: none;
+     text-align: center;
+ }
